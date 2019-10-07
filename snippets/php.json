@@ -1,13 +1,7 @@
 {
   "Text Field": {
     "prefix": "flyntText",
-    "body": [
-      "[",
-      "\t'label' => '$1',",
-      "\t'name' => '$2',",
-      "\t'type' => 'text'",
-      "],"
-    ]
+    "body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'text'", "],"]
   },
   "Text Area": {
     "prefix": "flyntTextarea",
@@ -37,33 +31,15 @@
   },
   "Email": {
     "prefix": "flyntEmail",
-    "body": [
-      "[",
-      "\t'label' => '$1',",
-      "\t'name' => '$2',",
-      "\t'type' => 'email'",
-      "],"
-    ]
+    "body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'email'", "],"]
   },
   "URL": {
     "prefix": "flyntURL",
-    "body": [
-      "[",
-      "\t'label' => '$1',",
-      "\t'name' => '$2',",
-      "\t'type' => 'url'",
-      "],"
-    ]
+    "body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'url'", "],"]
   },
   "Password": {
     "prefix": "flyntPassword",
-    "body": [
-      "[",
-      "\t'label' => '$1',",
-      "\t'name' => '$2',",
-      "\t'type' => 'password'",
-      "],"
-    ]
+    "body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'password'", "],"]
   },
   "WYSIWYG": {
     "prefix": "flyntWYSIWYG",
@@ -81,13 +57,7 @@
   },
   "oEmbed": {
     "prefix": "flyntOEmbed",
-    "body": [
-      "[",
-      "\t'label' => '$1',",
-      "\t'name' => '$2',",
-      "\t'type' => 'oembed'",
-      "],"
-    ]
+    "body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'oembed'", "],"]
   },
   "Image": {
     "prefix": "flyntImage",
@@ -360,7 +330,6 @@
       "\t'picker' => 'slider',",
       "\t'save_as_timestamp' => 'true',",
       "\t'get_as_timestamp' => 'true',",
-      "\t'first_day' => ${5|1,0,2,3,4,5,6|}",
       "],"
     ]
   },
@@ -506,19 +475,11 @@
   },
   "Add Translatable Options": {
     "prefix": "flyntTranslatableOption",
-    "body": [
-      "Options::addTranslatable('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [",
-      "\t$2",
-      "]);"
-    ]
+    "body": ["Options::addTranslatable('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [", "\t$2", "]);"]
   },
   "Add Global Options": {
     "prefix": "flyntGlobalOption",
-    "body": [
-      "Options::addGlobal('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [",
-      "\t$2",
-      "]);"
-    ]
+    "body": ["Options::addGlobal('${1:${TM_DIRECTORY/.*\\/(.+)$/${1:/capitalize}/}}', [", "\t$2", "]);"]
   },
   "Add Component Data": {
     "prefix": "flyntComponentData",
