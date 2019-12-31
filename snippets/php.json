@@ -1,7 +1,9 @@
 {
 	"Text Field": {
 		"prefix": "flyntText",
-    "body": ["[", "\t'label' => '$1',",
+    "body": [
+      "[",
+      "\t'label' => '$1',",
       "\t'name' => '$2',",
       "\t'type' => 'text'",
       "],"
@@ -35,7 +37,9 @@
 	},
 	"Email": {
 		"prefix": "flyntEmail",
-    "body": ["[", "\t'label' => '$1',",
+    "body": [
+      "[",
+      "\t'label' => '$1',",
       "\t'name' => '$2',",
       "\t'type' => 'email'",
       "],"
@@ -43,7 +47,8 @@
 	},
 	"URL": {
 		"prefix": "flyntURL",
-    "body": ["[",
+    "body": [
+      "[",
       "\t'label' => '$1',",
       "\t'name' => '$2',",
       "\t'type' => 'url'",
@@ -52,7 +57,9 @@
 	},
 	"Password": {
 		"prefix": "flyntPassword",
-    "body": ["[", "\t'label' => '$1',",
+    "body": [
+      "[",
+      "\t'label' => '$1',",
       "\t'name' => '$2',",
       "\t'type' => 'password'",
       "],"
@@ -74,7 +81,9 @@
 	},
 	"oEmbed": {
 		"prefix": "flyntOEmbed",
-    "body": ["[", "\t'label' => '$1',",
+    "body": [
+      "[",
+      "\t'label' => '$1',",
       "\t'name' => '$2',",
       "\t'type' => 'oembed'",
     "],"
