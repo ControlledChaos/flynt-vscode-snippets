@@ -1,7 +1,11 @@
 {
 	"Text Field": {
 		"prefix": "flyntText",
-		"body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'text'", "],"]
+    "body": ["[", "\t'label' => '$1',",
+      "\t'name' => '$2',",
+      "\t'type' => 'text'",
+      "],"
+    ]
 	},
 	"Text Area": {
 		"prefix": "flyntTextarea",
@@ -31,15 +35,28 @@
 	},
 	"Email": {
 		"prefix": "flyntEmail",
-		"body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'email'", "],"]
+    "body": ["[", "\t'label' => '$1',",
+      "\t'name' => '$2',",
+      "\t'type' => 'email'",
+      "],"
+    ]
 	},
 	"URL": {
 		"prefix": "flyntURL",
-		"body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'url'", "],"]
+    "body": ["[",
+      "\t'label' => '$1',",
+      "\t'name' => '$2',",
+      "\t'type' => 'url'",
+      "],"
+    ]
 	},
 	"Password": {
 		"prefix": "flyntPassword",
-		"body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'password'", "],"]
+    "body": ["[", "\t'label' => '$1',",
+      "\t'name' => '$2',",
+      "\t'type' => 'password'",
+      "],"
+    ]
 	},
 	"WYSIWYG": {
 		"prefix": "flyntWYSIWYG",
@@ -57,7 +74,11 @@
 	},
 	"oEmbed": {
 		"prefix": "flyntOEmbed",
-		"body": ["[", "\t'label' => '$1',", "\t'name' => '$2',", "\t'type' => 'oembed'", "],"]
+    "body": ["[", "\t'label' => '$1',",
+      "\t'name' => '$2',",
+      "\t'type' => 'oembed'",
+    "],"
+  ]
 	},
 	"Image": {
 		"prefix": "flyntImage",
